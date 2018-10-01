@@ -1,0 +1,51 @@
+extends _layout/layout.pug
+block main 
+	section.header
+		.container
+			.row.align-items-center
+				.col-lg-3
+					img(src="./img/logo.png", alt="").img-fluid
+				.col-lg-9
+					p.mb-0 Using a single layout to create several different looks
+			.row
+				.col
+					ul.list-inline-block.d-flex.align-items-center.mb-0.p-0
+						li.list-inline-item.text-center
+							a.btn(href="javascript:void(0)") Home
+						li.list-inline-item.text-center
+							a.btn(href="javascript:void(0)") About
+						li.list-inline-item.text-center
+							a.btn(href="javascript:void(0)") Service
+						li.list-inline-item.text-center
+							a.btn(href="javascript:void(0)") Contact Us
+
+	section.banner
+		.container
+			.row.align-items-center.banner-content.py-5.m-0
+					.col-lg-3
+						img(src="./img/logo.png", alt="").img-fluid
+					.col-lg-9
+						h1 About
+						p Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dignissimos ullam sint labore officiis dolor delectus minima blanditiis nulla soluta. Temporibus, atque aliquam voluptas sint expedita tempore ab quasi inventore?
+
+	section.about.mt-2
+		.container
+			.row.no-gutters
+				.col-lg-3
+					ul.list-unstyled.side-menu.p-4
+						li.d-block
+							a(href="javascript:void(0)").d-block.text-capitalize.text-white About us
+						li.mt-2.d-block
+							a(href="javascript:void(0)").d-block.text-capitalize.text-white How we work
+						li.mt-2.d-block
+							a(href="javascript:void(0)").d-block.text-capitalize.text-white testimonials
+						li.mt-2.d-block
+							a(href="javascript:void(0)").d-block.text-capitalize.text-white contact support
+				.col-lg-9
+					.main-content.p-5
+						h2 How we work
+						p.mt-4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas pariatur vel, facilis iusto magnam nesciunt nisi id doloremque distinctio nulla porro veniam fugit alias quod non dolore beatae ratione ad?
+						p.mt-4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas pariatur vel, facilis iusto magnam nesciunt nisi id doloremque distinctio nulla porro veniam fugit alias quod non dolore beatae ratione ad?
+						p.mt-4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas pariatur vel, facilis iusto magnam nesciunt nisi id doloremque distinctio nulla porro veniam fugit alias quod non dolore beatae ratione ad?
+						p.mt-4 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas pariatur vel, facilis iusto magnam nesciunt nisi id doloremque distinctio nulla porro veniam fugit alias quod non dolore beatae ratione ad?
+
